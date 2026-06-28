@@ -65,7 +65,7 @@ data = pd.DataFrame([[
     "bank_asset_value"
 ])
 
-# Scale Data
+# Scale Dataset
 data_scaled = scaler.transform(data)
 
 # Prediction
